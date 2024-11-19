@@ -115,7 +115,7 @@
         .l {
           background-image: url(images/tom4.png);
         }
-        
+
         .controls {
             display: flex;
             justify-content: center;
@@ -153,3 +153,106 @@
             }
         }
   
+
+
+/* contects */
+
+
+
+
+/* Add these styles to your existing CSS file */
+
+.contact-section {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.contact-section h2 {
+  color: #fff;
+  font-family: 'Arvo', serif;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  color: #fff;
+  font-size: 1.8rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific colors for each social media icon on hover */
+.social-link:hover .fa-x-twitter {
+  color: #1DA1F2;
+}
+
+.social-link:hover .fa-linkedin {
+  color: #0077B5;
+}
+
+.social-link:hover .fa-instagram {
+  color: #E4405F;
+}
+
+.social-link:hover .fa-github {
+  color: #333;
+}
+
+.social-link:hover .fa-pinterest {
+  color: #E60023;
+}
+
+
+.social-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .social-link {
+      font-size: 1.5rem;
+      width: 40px;
+      height: 40px;
+  }
+  
+  .contact-section h2 {
+      font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-links {
+      gap: 1rem;
+  }
+  
+  .social-link {
+      font-size: 1.2rem;
+      width: 35px;
+      height: 35px;
+  }
+}
