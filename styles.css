@@ -1,16 +1,16 @@
+      * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        :root {
+
+      :root {
             --primary-bg: #283149;
             --secondary-bg: #404B69;
             --accent-color: #DA0463;
             --text-color: #DBEDF3;
             --shadow-color: rgba(219, 237, 243, 0.3);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
         }
 
         body {
@@ -152,15 +152,6 @@
                 font-size: 2rem;
             }
         }
-  
-
-
-/* contects */
-
-
-
-
-/* Add these styles to your existing CSS file */
 
 .contact-section {
   text-align: center;
@@ -205,7 +196,6 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Specific colors for each social media icon on hover */
 .social-link:hover .fa-x-twitter {
   color: #1DA1F2;
 }
@@ -232,7 +222,6 @@
   color: #fff;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .social-link {
       font-size: 1.5rem;
