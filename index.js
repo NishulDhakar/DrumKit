@@ -1,5 +1,3 @@
-
-// Global volume variable
 let globalVolume = 1; // Default volume is 1 (max)
 
 // Detecting Button Press
@@ -77,5 +75,5 @@ function buttonAnime(currentKey) {
 // Setup Volume Control
 document.getElementById("volume").addEventListener("input", function (e) {
     globalVolume = parseFloat(e.target.value);
-    console.log("Volume set to:", globalVolume); // Debugging info
+    console.log("Volume set to:", globalVolume);
 });
